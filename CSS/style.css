@@ -1,0 +1,148 @@
+/* Global section */
+
+/* #2 #colorful #palette is:
+          * Background: #F5F5F5 (GREY 100)
+          * Primary Text: black
+          * Primary color: #3F51B5 (INDIGO)
+          * Primary color_text : white
+          * Accent color: #CDDC39 (LIME)
+          * Accent color_text: black
+          */        
+
+* {
+            /* #2 #font #faces */
+            font-family: "Roboto", sans-serif;
+            margin: 0;        
+            padding: 0;
+            
+        }
+body {
+            /* #2 #colorful #background */
+            background-color: #F5F5F5;
+        }
+
+
+
+a {
+            text-transform: uppercase;
+            color: initial;
+        
+        }
+
+/* App bar section */
+
+h1 {
+            /* #2 #colourful #app-bar */
+            background-color: #3F51B5;
+            color: white;
+        }
+
+
+
+/* Channels section */
+
+/*styles for channel area*/
+        ul {
+            /* #2 #colorful #channelandchat */
+            background-color: white;
+            list-style-type: none;
+            padding: 16px;
+            font-size: 16px;
+            
+            
+}
+li{
+        border-style: ridge;
+        border-color: #F5F5F5;
+        border-width: thin;
+    vertical-align: middle;
+}
+#selected-channel {
+        color: #3F51B5;
+        border-left-color: #3F51B5;
+        border-left-style: solid;
+}
+
+/* Tab bar section */
+
+#tab-bar {
+            /* #2 #colourful #app-bar */
+            background-color: #3F51B5;
+            color: white;
+        }
+
+#tab-bar-buttons {
+     
+        background-color: blue
+        border-style: none;
+        font-size: 13px;
+        height: 72px;
+        padding: 16px;
+        text-transform: uppercase;
+              
+}
+
+#selected-button {
+        color: #3F51B5;
+
+        
+}
+
+/* Messages section */
+
+ .message {
+            /* #2 #message container*/
+            width: 80%;
+            margin-bottom: 8px;
+            text-align: left;
+            margin-left: 2.5%;
+            
+     
+    }
+.message-own {
+            /* #2 #message container*/
+            
+            margin-bottom: 8px;
+            text-align: left;
+            margin-left: 17.5%;
+    }
+.message-metadata {
+            /* #2 #metadata */
+           
+            font-size: medium;
+         
+     
+    }
+
+.message-text {
+            background-color: white;
+            padding: 16px;  
+            
+}
+
+.message-button
+            {
+            /* #2 message button */
+            background-color: #CDDC39;
+            color: black;   
+            text-transform: uppercase;
+        }
+.emphasised-info {
+            /* #2 font-sizes of the emphasised information */
+            font-size: larger;
+            font-style: normal;
+                    }
+
+        strong {
+            /* #2 #font #locations need an extra element, we'll use strong for w3w locations */
+            text-transform: uppercase;
+        }
+
+        h3 {
+            /* #2 #font #metadata is now medium */
+            font-size: medium;
+        }
+
+
+        
+ 
